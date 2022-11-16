@@ -5,7 +5,7 @@ import jdk.incubator.vector.DoubleVector;
 import jdk.incubator.vector.VectorOperators;
 import jdk.incubator.vector.VectorSpecies;
 
-import static dev.ludovic.presentation.BenchmarkSupport.*;
+import static dev.ludovic.presentation.BenchmarkSupport.loopBound;
 
 public class DotProduct {
 

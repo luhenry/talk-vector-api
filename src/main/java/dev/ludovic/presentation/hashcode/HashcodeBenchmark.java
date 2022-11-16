@@ -41,16 +41,7 @@ public class HashcodeBenchmark {
   }
 
   @Benchmark
-  public int scalarBackward() {
-    return Hashcode.scalarBackward(arr);
-  }
-
-  @Benchmark
-  public int vectorBackward() {
-    return Hashcode.vectorBackward(arr);
-  }
-  @Benchmark
-  public int vectorBackwardUnroll() {
-    return Hashcode.vectorBackwardUnroll(arr);
+  public int vectorUnroll() {
+    return Hashcode.vectorUnroll(arr);
   }
 }
